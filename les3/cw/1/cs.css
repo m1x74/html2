@@ -1,0 +1,47 @@
+h1{
+    margin-left: 750px;
+    font-family: Arial;
+    color: grey;
+}
+.wrapper{
+    display: flex;
+    margin-left: 90px;
+    column-gap: 20px;
+
+}
+.star,.geo,.trend,.world{
+    width: 400px;
+    border: solid #cecccc 1px;
+    border-right: solid #c0c0c0 3px;
+    border-bottom: solid #bdbbbb 3px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 25px;
+
+}
+p{
+    width: 330px ;
+    text-align: center;
+    font-size: 20px;
+    color: #c1bec5;
+}
+.fas{
+    font-size: 70px;
+    color: #999999;
+}
+h2{
+    font-size: 30px;
+    color: #be8153;
+}
+button{
+    width: 200px;
+    height: 60px;
+    background: #55c3b6;
+    border: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
