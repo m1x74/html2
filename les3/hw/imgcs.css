@@ -1,0 +1,36 @@
+body{
+    background: #06bcd4;
+
+}
+.wrapper{
+    margin-left: 350px;
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.p1,.p2,.p3,.p3,.p4,.p5,.p6{
+    margin-right: 30px;
+    margin-bottom: 30px;
+    width: 600px;
+    height: 250px;
+    background: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 40px;
+}
+.fa-edit,.fa-crop,.fa-id-card,.fa-code,.fa-wordpress,.fa-buysellads{
+    font-size: 70px;
+    color: grey;
+}
+.pp{
+    width: 60%;
+}
+h2{
+    color: #f5ad4a;
+}
+p{
+    color: grey;
+}
