@@ -1,0 +1,55 @@
+@media screen and (max-width: 480px) {
+
+    .ab1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .a1 {
+        height: 100px;
+    }
+    .b1{
+        width: 100%;
+        height: 250px;
+    }
+    .c1{
+        width: 100%;
+        height: 100px;
+        margin-top: 10px;
+    }
+   .bcde2,.symbols{
+       width: 100%;
+       column-gap: 20%;
+   }
+    .lot2,.lot3{
+        width: 100%;
+        flex-direction: column;
+    }
+    .f2{
+        width: 100%;
+        height: 100px;
+        margin-top: 10px;
+    }
+    .c2,.d2,.e2{
+        width: 20%;
+        height: 100px;
+        background: grey;}
+
+    .b3,.c3,.d3,.e3,.f3,.g3{
+        width: 20%;
+        height: 100px;
+        background: grey;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+}
