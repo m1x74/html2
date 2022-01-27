@@ -326,7 +326,7 @@ color: #375361;
 
 }
 .content_width{
-    width: 35%;
+    width: 65%;
 }
 .main__content_left{
     margin-left: 10.27%;
@@ -375,4 +375,223 @@ color: #375361;
 }
 .microbtn button:hover{
     background: #FE9F28;
+}
+.main__content{
+    display: flex;
+
+}
+.main__content_right{
+    margin-top: 226px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 135px;
+
+}
+.video,.concepttesting,.contextual{
+    display: flex;
+    flex-direction: column;
+    row-gap: 34px;
+}
+.main__content_left img{
+    height: 40px;
+    width: 40px;
+
+
+}
+.content__pink{
+    width: 100%;
+    height: 960px;
+    background: #F2EDE7;
+    padding-left: 8.47%;
+    padding-top: 96px;
+}
+.content__pink p{
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 1.399999976158142px;
+    text-align: left;
+    color: #375361;
+}
+.content__pink h2{
+    font-family: Roboto;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 64px;
+    letter-spacing: 0.6000000238418579px;
+    text-align: left;
+    color: #0B2330;
+    width: 80%;
+}
+.content__pink img{
+    margin-top: 140px;
+}
+.pink__bot{
+    display: flex;
+    column-gap: 224px;
+
+}
+.pink__right{
+    width: 90%;
+    margin-top: 140px;
+
+}
+.accordion-body,.accordion-button,.accordion-item{
+    background: #F2EDE7;
+}
+.accordion-item{
+    border: none;
+}
+.accordion-button{
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #0B2330;
+    border-bottom: solid #C3CACD 2px;
+}
+.integrations_left{
+    margin-left: 10.2%;
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 37px;
+}
+.integrations_left p{
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 1.399999976158142px;
+    text-align: left;
+    color: #375361;
+}
+.integrations_left h2{
+    font-family: Roboto;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0.3400000035762787px;
+    text-align: left;
+    color: #0B2330;
+
+}
+.integrations_left button{
+    width: 30%;
+    height: 54px;
+    border: solid 1px black;
+    border-radius: 4px;
+    text-align: center;
+}
+.content__integrations{
+    margin-top: 184px;
+    display: flex;
+    column-gap: 11%;
+}
+.case_study{
+    width: 39%;
+    margin-left: 2.2%;
+    height: 584px;
+    background: #F2EDE7;
+    border-radius: 10px 0px 0px 10px;
+    padding-left: 8%;
+    padding-top: 80px;
+    margin-top: 240px;
+}
+.case_study p{
+    font-family: Roboto;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #375361;
+    width: 75%;
+    margin-top: 27px;
+}
+.case_study h2{
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #0B2330;
+    width: 75%;
+    margin-top: 17px;
+
+}
+.case_study button{
+    width: 30%;
+    height: 54px;
+    border: solid 1px black;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 36px;
+}
+.content__case{
+    display: flex;
+
+}
+.quote{
+    height: 584px;
+    background: #F9C600;
+    width: 56.6%;
+    margin-top: 240px;
+    border-radius: 0px 10px 10px 0px;
+    position: relative;
+
+}
+.quote h3{
+    position: absolute;
+    top: 13%;
+    left: 14%;
+    font-family: Roboto;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0.3400000035762787px;
+    text-align: left;
+    width: 70%;
+    color: black;
+
+}
+.quote_bot{
+    display: flex;
+    align-items: center;
+    column-gap: 3%;
+    margin-top: 177px;
+    margin-left: 14%;
+}
+.text_name{
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #0B2330;
+}
+.text_position{
+    color: #2F3F48;
+    font-family: Roboto;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+
 }
